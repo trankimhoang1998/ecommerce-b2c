@@ -1,0 +1,23 @@
+.not-pc {
+  @include media-pc($breakPoint-sp) {
+    display: none !important;
+  }
+}
+
+.not-sp {
+  @include media-sp($breakPoint-sp) {
+    display: none !important;
+  }
+}
+
+.c-button {
+
+}
+
+.c-title {
+
+}
+
+.c-text {
+
+}

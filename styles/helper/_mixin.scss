@@ -1,0 +1,12 @@
+// Responsive
+@mixin media-sp($bp) {
+  @media screen and (max-width: $bp) {
+    @content;
+  }
+}
+
+@mixin media-pc($bp) {
+  @media screen and (min-width: $bp) {
+    @content;
+  }
+}
